@@ -5,7 +5,7 @@ const app = express()
 const sequelize = require("./connection");
 const Routes = require("./routes")
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3333;
 
 sequelize.sync().then(() => console.log("database connect Successfully!!!"));
 
